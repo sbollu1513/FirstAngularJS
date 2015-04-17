@@ -1,0 +1,48 @@
+ul.navigation li {
+    background: #f6f6f6;
+    padding: 2px;
+    margin: 2px 0;
+    display:block;
+    cursor: pointer;
+}
+ul.navigation li.active {
+    background: blue;
+    color: #f6f6f6;
+    display: block;
+    padding: 10px;
+}
+.highlightOne {
+    background: orange;
+    font-size: 125%;
+    margin: 5px;
+    padding: 5px;
+}
+.navigation {
+    display: block;
+    background: #666;
+    margin: 10px;
+    padding: 10px;
+    width: 10%;
+}
+p {
+    margin: 10px 0 20px;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+table td
+{
+    padding: 8px 8px;
+}
+
+table thead
+{
+    background-color: grey;
+        padding: 8px 8px;
+}
+
+.boldText { font-weight:bold; }
+

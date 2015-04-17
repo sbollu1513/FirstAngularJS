@@ -21,6 +21,7 @@ app.controller('indexCtrl',function($scope, $http){
 	$http.get('http://www.json-generator.com/api/json/get/bGPsRmoFIO?indent=2').
 		success(function(data1){
 			$scope.geonames = data1;
+			
 		}).
 		error(function(data1){			
 			$scope.error2 = "No Data";

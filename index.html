@@ -41,6 +41,31 @@
             {{error2}}
         </div>
         </div>
+
+         <div class="container">
+        <div class="jumbotron">
+            <table border="1" cellpadding="1" ng-class="table">
+            <thead>
+                <th>Company</th>
+                <th>isActive</th>
+                <th>email</th>
+                <th>phone</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="geo in geonames">
+                    <td>{{geo.company}}</td>
+
+                    <td>{{geo.isActive}}</td>
+
+                    <td>{{geo.email}}</td>
+
+                    <td>{{geo.phone}}</td>
+                </tr>
+            </tbody>
+            </table>
+            {{error3}}
+        </div>
+        </div>
 </nav>   
 </div>
 </body>
